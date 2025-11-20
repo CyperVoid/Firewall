@@ -63,7 +63,6 @@ The blank, hanging client screen in Test 2 proves the UFW filter in action. The 
 - To disable UFW completely (testing only): `sudo ufw disable`  
 - Always test firewall rules in a **safe environment** to avoid disrupting critical services.  
 
-*Paste images of firewall status and connection results in the appropriate places to document outputs visually.*
 
 
 
