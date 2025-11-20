@@ -1,0 +1,34 @@
+# Firewall Questions Basic ones for Interview
+
+**1. What is a firewall?**  
+A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predefined security rules. It acts as a barrier between a trusted network and untrusted networks (like the Internet) to prevent unauthorized access.
+
+**2. Difference between stateful and stateless firewall:**  
+- **Stateful firewall:** Tracks the state of active connections and makes decisions based on the context of the traffic (e.g., whether a packet is part of an established connection).  
+- **Stateless firewall:** Filters packets based solely on predefined rules (like IP, port, or protocol) without considering connection state.
+
+**3. What are inbound and outbound rules?**  
+- **Inbound rules:** Control traffic coming **into** the system from external sources.  
+- **Outbound rules:** Control traffic going **out of** the system to external networks.
+
+**4. How does UFW simplify firewall management?**  
+UFW (Uncomplicated Firewall) provides a user-friendly interface for configuring firewall rules on Linux. It simplifies complex iptables commands into simple allow/deny commands for ports, protocols, and IPs.
+
+**5. Why block port 23 (Telnet)?**  
+Port 23 is used by Telnet, which transmits data (including passwords) in **plain text**, making it insecure. Blocking it prevents unauthorized access and reduces potential attacks.
+
+**6. What are common firewall mistakes?**  
+- Leaving unnecessary ports open.  
+- Using weak or overly permissive rules.  
+- Not updating firewall rules regularly.  
+- Relying solely on a firewall without other security measures.
+
+**7. How does a firewall improve network security?**  
+A firewall improves security by:  
+- Preventing unauthorized access.  
+- Blocking malicious traffic.  
+- Controlling which services and ports are accessible.  
+- Reducing the attack surface of a system or network.
+
+**8. What is NAT in firewalls?**  
+NAT (Network Address Translation) is a technique used by firewalls to **translate private IP addresses to public IP addresses** (and vice versa) for network communication. It hides internal network structure and helps improve security.
